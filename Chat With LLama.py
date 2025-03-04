@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 import os
 
-os.environ["GROQ_API_KEY"] = st.secrets["OpenAI_key"]
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
 # Creating an Array for storing the chat history for the model.
 context = []
